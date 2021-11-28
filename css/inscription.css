@@ -1,0 +1,58 @@
+#body{
+    margin:0;
+ }
+ #conteneur{
+    margin:0;
+    padding:60px;
+    background:#0e0d0d;
+   
+ }
+ .fieldset{
+    margin:20%;
+    border:none;
+    background-color:#FFFFFF;
+    border-radius:100px;
+    padding:5%;
+    margin-top: 10%;
+ }
+ .legend{
+    font-family:verdana, arial, sans-serif;
+    font-size:14pt;
+    font-weight:bold;
+    color:#faf9f9;
+    margin:10px;
+    padding:10px 20px 10px 20px;
+    background-color:#494848;
+    border-radius:4px;
+ }
+ .label{
+    display:inline-block;
+    width:200px;
+    font-family:verdana, arial, sans-serif;
+    font-size:15pt;
+    padding:10px;
+ }
+ .input{
+    display:inline-block;
+    width:200px;
+    padding:6px;
+ }
+ .champ{
+    outline:none;
+    border:solid 1px #080808;
+    padding:10px;
+    border-radius:4px;
+    font-family:verdana, arial, sans-serif;
+ }
+ input[type="text"].champ:focus, input[type="password"].champ:focus{
+    background-color:#b3aeae;
+ }
+ input[type="submit"].champ{
+    background-color:#0010ee;
+    color:#FFFFFF;
+    padding:6px 20px 6px 20px;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    width:160px;
+ }
